@@ -68,6 +68,7 @@ signed main(){
         if (q_init.size()&&final==q_init.top()) q_init.pop();
         else if (q_left.size()&&final==q_left.front()) q_left.pop();
         else if (q_right.size()&&final==q_right.front()) q_right.pop();
+        
         if (j%t==0) printf("%d ",final.val.first+(i-final.val.second-1)*q);
     }
 
